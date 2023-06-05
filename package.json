@@ -1,7 +1,7 @@
 {
+  "homepage": "http://soufi-learn.github.io/weblog-project",
   "name": "weblog-project",
   "version": "0.1.0",
-  "homepage": "https://soufi-learn.github.io/weblog-project",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.7.14",
