@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://v1.fontapi.ir/css/Vazir:400?n=vazir");
+body {
+  font-family: "Varela Round", "vazir" !important;
+}
+
+input,
+textarea {
+  font-family: "Varela Round", "vazir" !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+}
+
+p {
+  font-size: 1rem;
+}

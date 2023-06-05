@@ -1,0 +1,37 @@
+/* MAIN HEADER */
+@media screen and (max-width: 575px) {
+  .main-header .header-title {
+    font-size: 1.7rem;
+  }
+}
+
+/* BLOG HEADER */
+.blog-container .blog-arrow-icon {
+  cursor: pointer;
+  display: none !important;
+}
+
+@media screen and (min-width: 575px) {
+  .blog-container .blog-arrow-icon {
+    display: block !important;
+  }
+}
+/* BLOG TITLE */
+.blog-container .blog-main-title {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+@media screen and (max-width: 575px) {
+  .blog-container .blog-main-title {
+    font-size: 1.7rem;
+  }
+}
+
+/* LOVELY MODAL */
+.modal-text {
+  font-family: vazir !important;
+  text-align: right;
+  direction: rtl;
+  line-height: 2rem !important;
+}
