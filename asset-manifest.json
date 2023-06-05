@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/weblog-project/static/css/main.f1a9c451.css",
+    "main.js": "/weblog-project/static/js/main.cf48229a.js",
+    "index.html": "/weblog-project/index.html",
+    "static/media/index.cjs": "/weblog-project/static/media/index.cd351d7c31d0d3fccf96.cjs",
+    "main.f1a9c451.css.map": "/weblog-project/static/css/main.f1a9c451.css.map",
+    "main.cf48229a.js.map": "/weblog-project/static/js/main.cf48229a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1a9c451.css",
+    "static/js/main.cf48229a.js"
+  ]
+}
