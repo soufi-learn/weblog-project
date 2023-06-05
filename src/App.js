@@ -14,10 +14,10 @@ function App() {
       <Header />
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="weblogs" element={<HomePage />} />
         <Route path="weblogs/:slug" element={<Blog />} />
         <Route path="authors/:slug" element={<Author />} />
-        <Route path="*" element={<Navigate to="/" />} />
+        <Route path="*" element={<Navigate to="weblogs" />} />
       </Routes>
       <Footer />
     </LovelyTextProvider>

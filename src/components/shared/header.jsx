@@ -39,10 +39,10 @@ const Header = () => {
         <AppBar position='sticky' color='primary' className="main-header">
             <Container maxWidth='xl'>
                 <Toolbar sx={{ height: '65px !important' }} >
-                    <Link to='/' style={{ flex: "1" }}>
+                    <Link to='weblogs' style={{ flex: "1" }}>
                         <Typography variant='h4' component='h2' color='white.main' className="header-title">Soufi Weblog</Typography>
                     </Link>
-                    {location.pathname === '/' &&
+                    {location.pathname === '/weblogs' &&
                         <IconButton color='white' title=':)' onClick={changeText}>
                             <FavoriteRounded />
                         </IconButton>
